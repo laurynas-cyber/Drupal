@@ -21,3 +21,5 @@ visu slaptazodziai 123
 5.Sukurtą užduotį galima rasti navigacijoje -> Task List
 
 6.tik uždėjus varnelę kad užduotis atlikta užduoties grafinę lentelę galima rasti navigacijoje -> chart view
+
+lentelei atvaizduot naudojau drupal charts
