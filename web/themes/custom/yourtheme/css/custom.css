@@ -1,0 +1,32 @@
+.chart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    width: 80px;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .bar-inner {
+    background-color: lightblue;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: height 0.5s ease;
+  }
+  
+  .bar-inner.senior {
+    background-color: lightcoral;
+  }
+  
+  .bar-inner.actual {
+    background-color: lightgreen;
+  }
+  
+  .bar-label {
+    font-weight: bold;
+  }
