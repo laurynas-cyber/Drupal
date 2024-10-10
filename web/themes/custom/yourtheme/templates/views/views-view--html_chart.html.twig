@@ -1,0 +1,9 @@
+{% if rows is not empty %}
+  <div class="custom-chart-wrapper">
+    {% for row in rows %}
+      <p>{{ row.content['#field_task_name'] }}</p>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No data available.</p>
+{% endif %}
