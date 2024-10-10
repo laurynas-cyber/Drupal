@@ -1,3 +1,7 @@
+body {
+  background-color: yellow; /* Just for testing */
+}
+
 .chart {
   display: flex;
   align-items: flex-end;

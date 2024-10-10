@@ -1,18 +1,13 @@
-name: 'My Theme'
+name: "My Theme"
 type: theme
-description: 'A custom theme for task tracking'
+description: "A custom theme for task tracking"
 core_version_requirement: ^10
-base theme: stable
+base theme: stable9 # Or another base theme, if needed
 
 libraries:
   - mytheme/global-styling
 
-stylesheets:
-  css:
-    theme:
-      css/custom.css: {}
-
 regions:
-  header: 'Header'
-  content: 'Content'
-  footer: 'Footer'
+  header: "Header"
+  content: "Content"
+  footer: "Footer"
